@@ -7,10 +7,10 @@ This repo contains our work on the four-person game development projects for Gam
 
 ## Authors
 
-- John Leonard (jdleonard@vcu.edu)
-- Jason Bennett (jebennett@vcu.edu)
-- Skippy McBoatface (skippy@mcboatface.com)
-- MF Broom (mfbroom@rva.com)
+- Lorelai Davis (davisla10@vcu.edu)
+- Nicki Baumgart (baumgartae@vcu.edu)
+- Kenny Bills (billsk@vcu.edu)
+- Daniel Polen (polenda@vcu.edu)
 
 ## Game Description
 
