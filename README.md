@@ -1,7 +1,6 @@
-# Elevator Wipeout - Sidecars and PBRs - Fall 2024
+# Underworld Bachelor - Minigame Dating Sim - Fall 2024
 
-Elevator Wipeout is a save-the-world game where the player does all they can to prevent bad guys from destroying a space elevator.  If the bad guys win, the earth
-is destroyed in a spectacular, slow-motion extravaganza.
+Brief description
 
 This repo contains our work on the four-person game development projects for GameDev.
 
