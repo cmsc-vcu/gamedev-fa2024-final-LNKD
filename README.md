@@ -1,4 +1,4 @@
-# Underworld Bachelor - Minigame Dating Sim - Fall 2024
+# Kiss of Death - Minigame Dating Sim - Fall 2024
 
 Brief description
 
