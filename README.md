@@ -1,6 +1,6 @@
 # Kiss of Death - Minigame Dating Sim - Fall 2024
 
-Brief description
+You are the Grim Reaper and you are participating in the hit dating show ‘Kiss of Death’ where evil characters go to find love. In order to find love you will need to talk to all of the contestants vying for your attention and complete the challenge they impose on you to get close to falling in-love. When you complete the challenge 3 times you may choose who will win the show and fall in-love with you.
 
 This repo contains our work on the four-person game development projects for GameDev.
 
