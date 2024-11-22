@@ -5,6 +5,8 @@ TagManager:
   serializedVersion: 2
   tags:
   - Collectable
+  - Note
+  - Last
   layers:
   - Default
   - TransparentFX
@@ -41,4 +43,10 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Activators
+    uniqueID: 586690819
+    locked: 0
+  - name: Note
+    uniqueID: 1521830341
     locked: 0

@@ -22,7 +22,7 @@ public class PlayerController2D : MonoBehaviour
             speed = 2f;
         }
         else {
-            speed = 5f;
+            speed = 4f;
         }
     }
 

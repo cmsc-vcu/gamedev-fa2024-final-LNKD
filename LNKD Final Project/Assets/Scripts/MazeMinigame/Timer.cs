@@ -8,7 +8,7 @@ public class Timer : MonoBehaviour
     [SerializeField] TextMeshProUGUI timerText;
     [SerializeField] float remainingTime;
     public float startTime = 120f;
-    public static bool win = true;
+    public static bool win = false;
 
     private void Start() {
         remainingTime = startTime;
@@ -19,9 +19,9 @@ public class Timer : MonoBehaviour
     {
         if(remainingTime > 0){
             remainingTime -= Time.deltaTime;
+            win = true;
         }else {
             remainingTime = 0;
-            win = false;
             timerText.color = Color.red;
         }
         int minutes = Mathf.FloorToInt(remainingTime / 60);

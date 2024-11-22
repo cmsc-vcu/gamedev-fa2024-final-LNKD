@@ -6,9 +6,21 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Hub.unity
-    guid: 8c9cfa26abfee488c85f1582747f6a02
+    path: Assets/Scenes/BeginningCutscene.unity
+    guid: 34d68837e5ad46246a485f6bf3baa5c2
   - enabled: 1
     path: Assets/Scenes/MazeMinigame.unity
     guid: bc8775545c3e3cc4eab0fc1b18b44ebc
+  - enabled: 1
+    path: Assets/Scenes/SnakeMinigame.unity
+    guid: d842a44259cbb78418a92aee3c377e62
+  - enabled: 1
+    path: Assets/Scenes/OctopusMinigame.unity
+    guid: bba15df25c9f71e43b0bbd319c39b745
+  - enabled: 1
+    path: Assets/Scenes/Hub.unity
+    guid: 4be909ac02e9b74468c56405c33ba5eb
+  - enabled: 1
+    path: Assets/Scenes/EndingScene.unity
+    guid: 846be101c7feade4389129e4c861bc40
   m_configObjects: {}
