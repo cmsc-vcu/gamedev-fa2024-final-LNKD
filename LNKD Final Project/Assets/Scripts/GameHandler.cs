@@ -36,9 +36,10 @@ public class GameHandler : MonoBehaviour
         Debug.Log("Snake Hearts increased");
         GameManager.win = false;
        }
-       else if (winstopper && FishingMinigame < 3) {
+       else if (FishingMiniGame.win && FishingMinigame < 3) {
         FishingMinigame++;
         Debug.Log("Octopus Hearts increased");
+        FishingMiniGame.win = false;
        }
 
         // update to check score of EACH minigame

@@ -8,13 +8,13 @@ public class GameManager : MonoBehaviour
     int multiplier = 1;
     int streak = 0;
     public static bool win = false;
-    GameObject gm;
 
     void Start()
     {
+        PlayerPrefs.SetInt("score",0);
         
     }
-
+    
     void Update()
     {
         
@@ -24,7 +24,7 @@ public class GameManager : MonoBehaviour
         if(col.gameObject.tag == "Last"){
             Debug.Log("SCORE " + GetScore());
             Debug.Log("SCORE " + PlayerPrefs.GetInt("Score"));
-            if(PlayerPrefs.GetInt("Score") <= 3300){
+            if(PlayerPrefs.GetInt("Score") <= (PlayerPrefs.GetInt("max")/2)){
                 
                 Debug.Log("Minigame has lost, score less than 3300");
             }else{
@@ -34,15 +34,18 @@ public class GameManager : MonoBehaviour
             SceneManager.LoadScene(4);
 
         }
+        if(col.gameObject.tag == "Note"){
+            ResetStreak();
+        }
     }
 
     public void AddStreak(){
         streak++;
-        if(streak >= 48){
+        if(streak >= 49){
             multiplier = 4;
-        }else if(streak >= 36){
-            multiplier = 3;
         }else if(streak >= 24){
+            multiplier = 3;
+        }else if(streak >= 12){
             multiplier = 2;
         }else{
             multiplier = 1;
