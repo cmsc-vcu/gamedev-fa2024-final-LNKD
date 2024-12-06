@@ -18,7 +18,8 @@ this game different from others?  What is the goal for playing?
 
 ## Important Links
 
-- Game URL: < [MVP](https://play.unity.com/en/games/0ec9e0af-4d74-4012-a140-c15dfc82e185/lnkd-final-project) >
+- Game WEBGL URL: < [Final Draft](https://play.unity.com/en/games/0ec9e0af-4d74-4012-a140-c15dfc82e185/lnkd-final-project) >
+- Game Itch.io URL: < [Final Draft]() >
 - GITHUB URL: < [GitHub](https://github.com/cmsc-vcu/gamedev-fa2024-final-LNKD) >
 - Gameplay Video URL: < [Video](https://youtu.be/sAWHYvTah0Q) >
 - Google Doc writeup: < [Design Doc](https://docs.google.com/presentation/d/1KvlzTw32u3AJ9Qcw8V4AGt5YnK3p3BewpOQqck10xWw/edit?usp=sharing) >
