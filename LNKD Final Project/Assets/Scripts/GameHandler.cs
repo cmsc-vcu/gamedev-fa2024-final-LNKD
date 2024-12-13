@@ -7,7 +7,7 @@ public class GameHandler : MonoBehaviour
 {
     // current love score with temu
     public static int MazeMinigame = 0;
-    public static int RhythumMinigame = 0;
+    public static int RhythymMinigame = 0;
     public static int FishingMinigame = 0;
 
     [Header("Game Systems")]
@@ -16,8 +16,8 @@ public class GameHandler : MonoBehaviour
     public Canvas panner;
     public ScreenDarkener ScreenDarkener;
 
-    private bool winstopper = false;
-
+    // private bool winstopper = false;
+    
 
     // Start is called before the first frame updat
     void Start() {
@@ -31,8 +31,8 @@ public class GameHandler : MonoBehaviour
         Debug.Log("Temu Hearts increased");
         Timer.win = false;
        }
-       else if (GameManager.win && RhythumMinigame < 3) {
-        RhythumMinigame++;
+       else if (GameManager.win && RhythymMinigame < 3) {
+        RhythymMinigame++;
         Debug.Log("Snake Hearts increased");
         GameManager.win = false;
        }
@@ -43,13 +43,13 @@ public class GameHandler : MonoBehaviour
        }
 
         // update to check score of EACH minigame
-        if (MazeMinigame == 3 || RhythumMinigame == 3 || FishingMinigame == 3) {
+        if (MazeMinigame == 3 || RhythymMinigame == 3 || FishingMinigame == 3) {
             closedDoor.SetActive(false);
             closedDoor.GetComponent<BoxCollider2D>().enabled = false;
             openDoor.SetActive(true);
-            if (MazeMinigame == 3) LastLove.partnerName = "Temu The Gunt";
-            if (RhythumMinigame == 3) LastLove.partnerName = "Snake With No Arms";
-            if (FishingMinigame == 3) LastLove.partnerName = "Sexy Octopus";
+            // if (MazeMinigame == 3) LastLove.partnerName = "Temu The Gunt";
+            // if (RhythymMinigame == 3) LastLove.partnerName = "Sid the Snake With No Arms";
+            // if (FishingMinigame == 3) LastLove.partnerName = "Sexy Octopus";
             
         }
     }

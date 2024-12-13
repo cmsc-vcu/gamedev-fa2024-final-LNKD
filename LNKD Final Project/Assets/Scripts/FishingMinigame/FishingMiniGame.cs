@@ -34,7 +34,7 @@ public class FishingMiniGame : MonoBehaviour
 
     [SerializeField] Transform progressBarContainer;
 
-    bool pause = false;
+    public static bool pause = false;
 
     [SerializeField] float failTimer = 10f;
 
@@ -42,6 +42,7 @@ public class FishingMiniGame : MonoBehaviour
 
     private void Start(){
         Resize();
+        pause = true;
     }
 
     private void Resize(){
@@ -92,13 +93,13 @@ public class FishingMiniGame : MonoBehaviour
         pause = true;
         win = true;
         Debug.Log("Wig has been retreived, congrats");
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
     private void Lose(){
         pause = true;
         Debug.Log("The wig has been lost to the sea, you lose");
-        SceneManager.LoadScene(4);
+        SceneManager.LoadScene(5);
     }
 
     void Hook(){
@@ -122,8 +123,8 @@ public class FishingMiniGame : MonoBehaviour
     void Fish(){
         fishTimer -= Time.deltaTime;
         if(fishTimer < 0f){
-            fishTimer = UnityEngine.Random.value * timerMultiplier;
-            fishDestination = UnityEngine.Random.value;
+            fishTimer = Random.value * timerMultiplier;
+            fishDestination = Random.value;
         }
 
         fishPosition = Mathf.SmoothDamp(fishPosition,fishDestination,ref fishspeed, smoothMotion);

@@ -5,7 +5,8 @@ using UnityEngine.SceneManagement;
 
 public class Play : MonoBehaviour
 {
+    [SerializeField] GameObject creditsScreen;
     public void changeScenes(){
-        SceneManager.LoadScene(0);
+        SceneManager.LoadScene(1);
     }
 }

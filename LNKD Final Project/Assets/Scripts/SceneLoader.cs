@@ -5,8 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class CutScene : MonoBehaviour
 {
-    public int scene;
     void OnEnable(){
-        SceneManager.LoadScene(scene,LoadSceneMode.Single);
+        SceneManager.LoadScene(5);
     }
 }

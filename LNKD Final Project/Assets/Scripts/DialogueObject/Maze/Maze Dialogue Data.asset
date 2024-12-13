@@ -1,0 +1,20 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322fd09b3905ad546bfc7aad7b3e17e1, type: 3}
+  m_Name: Maze Dialogue Data
+  m_EditorClassIdentifier: 
+  dialogue:
+  - I lost my asteroid somewhere in this maze.
+  - "Embarrassing, I know\u2026\nbut it is very dear to me."
+  - 'Would you be able to help me find it?
+
+    It must be somewhere in this maze...'

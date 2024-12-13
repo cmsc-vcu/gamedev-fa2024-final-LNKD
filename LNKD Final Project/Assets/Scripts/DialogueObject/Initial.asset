@@ -1,0 +1,56 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 322fd09b3905ad546bfc7aad7b3e17e1, type: 3}
+  m_Name: Initial
+  m_EditorClassIdentifier: 
+  dialogue:
+  - Hello, haunts!
+  - and welcome, wraiths!
+  - To the premiere underworld dating show...
+  - ... Kiss of Death!
+  - We're here today with the Grim Reader, collector of souls, in search for a soulmate!
+  - No matter what you're looking for,
+  - I'm sure you'll find what you desire here.
+  - Now let's meet our lovely contestants!
+  - 'First up ... the galactic ruler ...
+
+    Temu the Hutt!'
+  - 'Achuta
+
+    I am Temu the Hutt, the most powerful ruler in all of Huttspace'
+  - I love long walks on the desert and gazing at the stars!
+  - "I am looking for my consort, my partner in crime, another star to orbit me in
+    binary!\r"
+  - Seems like a loyal partner.
+  - Powerful, too.... but there are many more stars in the sky.
+  - 'Or rather...
+
+    on the stage'
+  - "Give it up for our next contestant, \nSid the Snake!\r\n"
+  - Hey, hey, hey! Ready to rock and roll?
+  - "I\u2019m Sid the Snake, \nthe best armless guitarist in the world!"
+  - "But even though I\u2019ve gotten out of this town, my inspiration\u2019s running
+    dry -"
+  - will you be my muse?
+  - "I might not be topping the charts but I\u2019d love to top you!"
+  - "That\u2019s\u2026 forward."
+  - Not as forward as our next contestant.
+  - "The Queen of the Sea, the tentacled beauty\u2026 \ngive it up for Sexy Octopus!"
+  - "There\u2019s plenty of fish in the sea, but none of them are me..."
+  - "I\u2019m Sexy Octopus, \nthe best drag queen in the Marianas Trench."
+  - I love fashion, makeup and dancing up a storm.
+  - "I know how to have some fun - but now I\u2019m looking for the reel thing."
+  - "Looks like she\u2019s quite the catch."
+  - 'I hope one of them has caught your eye
+
+    Mr. Reaper...'
+  - Now, let the show begin! Who will earn the Kiss of Death?

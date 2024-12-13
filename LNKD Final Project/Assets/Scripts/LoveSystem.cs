@@ -28,11 +28,11 @@ public class LoveSystem : MonoBehaviour
             if (GameHandler.MazeMinigame == 3) changeHeart(heart3, openHeart);
             temuScore = GameHandler.MazeMinigame;
         }
-        else if (lover == "Snake" && snakeScore != GameHandler.RhythumMinigame) {
-            if (GameHandler.RhythumMinigame >= 1) changeHeart(heart1, openHeart);
-            if (GameHandler.RhythumMinigame >= 2) changeHeart(heart2, openHeart);
-            if (GameHandler.RhythumMinigame == 3) changeHeart(heart3, openHeart);
-            snakeScore = GameHandler.RhythumMinigame;
+        else if (lover == "Snake" && snakeScore != GameHandler.RhythymMinigame) {
+            if (GameHandler.RhythymMinigame >= 1) changeHeart(heart1, openHeart);
+            if (GameHandler.RhythymMinigame >= 2) changeHeart(heart2, openHeart);
+            if (GameHandler.RhythymMinigame == 3) changeHeart(heart3, openHeart);
+            snakeScore = GameHandler.RhythymMinigame;
         }
         else if (lover == "Octopus" && octopusScore != GameHandler.FishingMinigame) {
             if (GameHandler.FishingMinigame >= 1) changeHeart(heart1, openHeart);

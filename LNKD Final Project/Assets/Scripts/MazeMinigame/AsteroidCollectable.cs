@@ -8,7 +8,7 @@ public class AsteroidCollectable : Collectable
 
     public override void ONCollect()
     {
-        Timer.win = true;
-        SceneManager.LoadScene(4); //load hub scene if collected
+        Timer.start = false;
+        SceneManager.LoadScene(5); //load hub scene if collected
     }
 }

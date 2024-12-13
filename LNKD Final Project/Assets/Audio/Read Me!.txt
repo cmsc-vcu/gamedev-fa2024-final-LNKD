@@ -1,0 +1,23 @@
+Read Me!
+
+Input from Jay the Musical: 
+
+Hi friends, Within this folder should be everything you need to finish fleshing out the game, if I’m wrong just shoot me a text. 
+
+SNAKE GAME: There are two subfolders that can (And should) be used to finish making the snake rhythm game. I’m not sure if the notes that currently fall in the version on itch.com are randomized or predetermined, but within each of the snake folders is a “redline” which in the fancy music world is the main/lead melody on its own without accompaniment. “Dry Backing” would be everything else, and “Master” would be your reference to be able to put the two together. There is also a “Mapping” mp3 with 4 long notes and the same 4 notes played shortly. My thoughts is that these would be mapped onto keys “ZXCV” so there is audio feedback during the snake game. I couldn’t with any confidence guess how long that would take, so I will just say those are my thoughts on how to make it work, and Game Development is not your only class so be healthy and smart. The track that someone has assigned to the titled screen is meant to be used in the snake game and that track has no metronome (mistake by me on the other) on the dry backing and so I suggest using that one. 
+
+Titled Track: I’ve added a title screen track with a piano intro into a little bit of background afterwards. My thoughts are that this will just loop with a bit of silence until the player clicks play. 
+
+If the Lobby track could fade in a little more that would be a more seamless transition into gameplay. 
+
+Fishing game sounds great and was fun to play! I’d be happy to 
+
+Maze game doesn’t much match the music but that is someone else’s decision to make. 
+
+SCRAP tracks: these are songs/tracks that you may or may not want to use, but are not intended (by me) to go with anything specific. They act as easy replacements if needed/wanted. Still don’t hesitate to ask for something. 
+
+Sound Effects: I wanted to add audio cues for winning or loosing a mini game, those have a sub folder as well. (Named Accordingly). Added some water as well from the octopus game (up to you/yall)
+
+Victory Song: I’ve added about a 10 second victory song with a separate track that I’d like to loop until the player exits the victory screen. Fading in and out of these tracks is important to make them not sound too goofy, but it’s a cute silly fun game so it’s not a big deal. 
+
+TEXT PINEAPPLE IN THE GROUP CHAT WHEN YOU’VE READ THIS ALL THANK YOU <3333

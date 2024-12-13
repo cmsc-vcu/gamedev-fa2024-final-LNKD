@@ -26,12 +26,12 @@ public class GameManager : MonoBehaviour
             Debug.Log("SCORE " + PlayerPrefs.GetInt("Score"));
             if(PlayerPrefs.GetInt("Score") <= (PlayerPrefs.GetInt("max")/2)){
                 
-                Debug.Log("Minigame has lost, score less than 3300");
+                Debug.Log("Minigame has lost, score less than max");
             }else{
                 win = true;
-                Debug.Log("Minigame won! Score higher than 3300");
+                Debug.Log("Minigame won! Score higher than max");
             }
-            SceneManager.LoadScene(4);
+            SceneManager.LoadScene(5);
 
         }
         if(col.gameObject.tag == "Note"){
